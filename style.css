@@ -1,0 +1,25 @@
+footer{
+    background-color: aqua;
+    color: white;
+    display: grid;
+    grid-template-columns: 7fr 5.5fr;
+}
+.left-panel{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.right-panel{
+    display: grid;
+    grid-template-columns: 5.5fr 5.5fr;
+    border-left: 1px solid white;
+    padding: 20px;
+}
+.footer-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: crimson;
+    padding: 10px;
+}
+.footer-title~div{
+    margin-top: 10px;
+}
